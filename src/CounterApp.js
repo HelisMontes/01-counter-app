@@ -1,7 +1,7 @@
 import React, { useState }from 'react';
 import PropTypes from 'prop-types';
 
-export const CounterApp = ({ value = 11 }) => {
+export const CounterApp = ({ value = 10 }) => {
     const [ count, setCount ] = useState( value ); // :[]
     
     const addEventSum = (e) => {
